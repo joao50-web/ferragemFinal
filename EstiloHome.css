@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 10vh;
+    background-color: #213555;
+}
+
+.paginas a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 32px;
+    top: 3vh;
+    left: 3%;
+    color: rgb(243, 234, 234);
+    padding: 0%;
+}
+
+.paginas a:hover {
+    color: rgb(198, 198, 198);
+}
+
+.paginas #Pesquisar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 32px;
+    top: 3vh;
+    left: 90%;
+    color: rgb(243, 234, 234);
+    padding: 0%;
+}
+.paginas #Pesquisar:hover {
+    color: rgb(172, 169, 169);
+}
+
+
+
+.container{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #3E5879;
+  
+}
+.container button {
+    display: inline-flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 90%;
+    height: 15vh;
+    left: 3%;
+    top: 2vh;
+    border: 2px solid black;
+}
+.container button:hover{
+    background-color: rgb(223, 225, 225);
+
+}
+.container .menu{ 
+    width: 100%;
+    height: 30vh;
+    top: 0vh;
+}
+
+.container .menu2{
+    width: 100%;
+    height: 30vh;
+    top: 0%;
+}
+.container .menu3{
+    width: 100%;
+    height: 30vh;
+    top: 0vh;
+}
+
+
+.tabela{
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    border: 2px solid black;
+    left: 2%;
+    width: 95%;
+    height: 70vh;
+    background-color: #D8C4B6;
+}
+
+.tabela h1{
+    color: rgb(214, 209, 209);
+    display: block;
+    position: relative;
+    font-size: 100px;
+    top: 50px;
+    text-align: center;
+}
+
+.final{
+    position: fixed;
+    width: 100%;
+    bottom:0%;
+    height: 10vh;
+    background-color: #213555;
+}
+

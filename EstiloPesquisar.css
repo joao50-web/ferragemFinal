@@ -1,0 +1,141 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   background-color: rgb(159, 106, 31);
+}
+
+.cabecalho{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(88, 86, 86);
+}
+
+.paginas a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 32px;
+    top: 3vh;
+    left: 3%;
+    color: rgb(243, 234, 234);
+    padding: 0%;
+}
+
+.paginas a:hover {
+    color: rgb(198, 198, 198);
+}
+
+.paginas #home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 32px;
+    top: 3vh;
+    left: 46%;
+    color: rgb(243, 234, 234);
+    padding: 0%;
+}
+
+.paginas #home:hover {
+    color: rgb(172, 169, 169);
+}
+
+
+.paginas #Pesquisar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 32px;
+    top: 3vh;
+    left: 90%;
+    color: rgb(243, 234, 234);
+    padding: 0%;
+}
+
+.paginas #Pesquisar:hover {
+    color: rgb(172, 169, 169);
+}
+
+
+
+
+.tabela{
+    display: flex;
+    bottom: 0%;
+    border: 2px solid rgb(176, 97, 97);
+    left: 2%;
+    width: 15%;
+    height: 75vh;
+    background-color: rgb(223, 225, 225);
+}
+
+.tabela h1{
+    color: rgb(214, 209, 209);
+    display: block;
+    position: relative;
+    font-size: 100px;
+    top: 50px;
+    text-align: center;
+}
+
+.final{
+    position: fixed;
+    width: 100%;
+    bottom:0%;
+    height: 10vh;
+    background-color: rgb(88, 86, 86);
+}
+
+
+
+  .icon1{
+    display: block;
+    position: absolute;
+    left: 73%;
+    top: 2vh;
+    width: 100%;
+    font-size: 250%;
+    color: #6a6969;
+  }
+
+
+
+
+  .items{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    margin-top: 12px;
+    background-color:bisque;
+    border-radius: 24px;
+    padding: 14px;
+    width: 350px;
+    height: 700px;
+    overflow-y: auto;
+    left: 30%;
+  }
+  .item{
+    display: flex;
+    gap: 12px;
+  }
+
+  .item-image{
+    width: 100px;
+    height: 120px;
+  }
+
+  .item-image img{
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#no_results{
+    display: none;
+    text-align: center;
+}
